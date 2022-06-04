@@ -19,7 +19,7 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo'  alt="sponsors" src='./assets/bridgestone.png'/>
+         <img className='sp-logo'  alt="sponsors" src='./assets/bridgestone.webp'/>
          
        </CardBody>
      </Card>
@@ -27,7 +27,7 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo' alt="sponsors" src='./assets/buyingshow.png'/>
+         <img className='sp-logo' alt="sponsors" src='./assets/buyingshow.webp'/>
          
        </CardBody>
      </Card>
@@ -35,7 +35,7 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo' alt="sponsors" src='./assets/caratlane.png'/>
+         <img className='sp-logo' alt="sponsors" src='./assets/caratlane.webp'/>
          
        </CardBody>
      </Card>
@@ -43,16 +43,13 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo' alt="sponsors" src='./assets/cisco.png'/>
+         <img className='sp-logo' alt="sponsors" src='./assets/cisco.webp'/>
          
        </CardBody>
      </Card>
      <Card className='card-sponsors'>
-       
        <CardBody className='cardbody-sponsors'>
-         
-         <img className='sp-logo'  alt="sponsors" src='./assets/forest.png'/>
-         
+         <img className='sp-logo'  alt="sponsors" src='./assets/forest.webp'/>
        </CardBody>
      </Card>
     

@@ -20,7 +20,7 @@ function NavBar(props){
     return(
         <>
         <Navbar className="nbar" expand="md">
-            <NavbarBrand href="/" ><img className="logonav"src='./assets/anubhutilogo.jpg' alt="A N U B H U T I "/></NavbarBrand>
+            <NavbarBrand href="/" ><img className="logonav"src='./assets/anubhutilogo.webp' alt="A N U B H U T I "/></NavbarBrand>
             <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ms-auto" navbar>
@@ -48,7 +48,7 @@ function NavBar(props){
                             <label htmlFor="amount">Amount</label>
                             <input type='number' onChange={handleFormChange} value={form.amount} className='appearance-none border border-1 w-100 px-2 py-1' name='amount' id='amount' />
                         </div>
-                        <button type='submit' onClick={submit} className='btn btn-primary text-white mx-auto d-block mt-3'>Submit</button>
+                        <button type='submit' onClick={submit} className='btn modalbtn btn-primary text-white mx-auto d-block mt-3'>Submit</button>
                     </ModalBody>
                 </div>
             </Modal>

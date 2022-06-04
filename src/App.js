@@ -7,6 +7,8 @@ import Programs from './Programs';
 import { Modal,ModalBody,ModalHeader} from 'reactstrap';
 import Sponsors from './Sponsors'
 import IG from './ImageGallery';
+import Featured from './Featured';
+import Chatbot from './chatbot';
 function App() {  
   const [isModalOpen, setModalOpen] = React.useState(false);
   const [form, setForm] = useState({ name: '', amount: '' })
@@ -23,6 +25,7 @@ function App() {
   return (
     <div className="App">
     <NavBar/>
+   
     <div className='banner'>
     <div className='cname'>A N U B H U T I</div>
     <h3 className="caption">Moving towards a better world !</h3>
@@ -44,7 +47,7 @@ function App() {
               <label htmlFor="amount">Amount</label>
               <input type='number' onChange={handleFormChange} value={form.amount} className='appearance-none border border-1 w-100 px-2 py-1' name='amount' id='amount' />
             </div>
-            <button type='submit' onClick={submit} className='btn btn-primary text-white mx-auto d-block mt-3'>Submit</button>
+            <button type='submit' onClick={submit} className='btn modalbtn btn-primary text-white mx-auto d-block mt-3'>Submit</button>
           </ModalBody>
       </div>
     </Modal>
@@ -56,7 +59,9 @@ function App() {
     </div>
     <hr></hr>
     <Sponsors/>
-    
+    <hr></hr>
+    <Featured/>
+    <Chatbot/>
     <Footer/>
   </div>
   );

@@ -8,7 +8,7 @@ function Footer(props) {
                 <div className='col pt-4'>
                     <div className='d-flex flex-column align-items-center'>
                         <h4 className=''>ANUBUTHI</h4>
-                        <img src='./assets/anubhutilogo.jpg' alt='ANUBUTHI' />
+                        <img src='./assets/anubhutilogo.webp' alt='ANUBUTHI' />
                     </div>
                 </div>
                 <div className='col pt-4'>
@@ -16,15 +16,17 @@ function Footer(props) {
                         <h4>CONTACT</h4>
                         <p className='mt-3 m-0 contact'>anubuthi@gmail.com</p>
                         <p className='m-0 contact'>+919876543210</p>
+                        <div><i className='fa-solid fa-house'></i>      25, ABC Road, Mumbai.</div>
+                        <div><i className='fa-solid fa-clock'></i>      09:00 AM - 08:00 PM.</div>
                         <div className='d-flex mt-3 justify-content-around w-50'>
                             <div className='iconContainer logo1'>
-                                <i class="fa-brands fa-google"></i>
+                                <i className="fa-brands fa-google"></i>
                             </div>
                             <div className='iconContainer logo2'>
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </div>
                             <div className='iconContainer logo3'>
-                                <i class="fa-brands fa-twitter"></i>
+                                <i className="fa-brands fa-twitter"></i>
                             </div>
                         </div>
                     </div>
