@@ -4,13 +4,10 @@ import NavBar from './Nav';
 import Footer from './footer';
 import {Button} from 'reactstrap';
 import Programs from './Programs';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink , Modal,ModalBody,ModalTitle,ModalFooter,ModalHeader} from 'reactstrap';
+import { Modal,ModalBody,ModalHeader} from 'reactstrap';
 import Sponsors from './Sponsors'
-import MyGallery from './imageCarousel';
 import IG from './ImageGallery';
-function App() {
-  const [isOpen, setIsOpen] = React.useState(false);
-    
+function App() {  
   const [isModalOpen, setModalOpen] = React.useState(false);
   const [form, setForm] = useState({ name: '', amount: '' })
   const toggle = () => { setModalOpen(!isModalOpen) }
@@ -52,10 +49,14 @@ function App() {
       </div>
     </Modal>
     <Programs/>
-    <Sponsors/>
+    <hr></hr>
     <div className='gallery'>
+      <h2 className='prghead'>Gallery</h2>
       <IG/>
     </div>
+    <hr></hr>
+    <Sponsors/>
+    
     <Footer/>
   </div>
   );

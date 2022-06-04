@@ -14,8 +14,8 @@ function Footer(props) {
                 <div className='col pt-4'>
                     <div className='d-flex flex-column align-items-center'>
                         <h4>CONTACT</h4>
-                        <p className='mt-3 m-0'>anubuthi@gmail.com</p>
-                        <p className='m-0'>+919876543210</p>
+                        <p className='mt-3 m-0 contact'>anubuthi@gmail.com</p>
+                        <p className='m-0 contact'>+919876543210</p>
                         <div className='d-flex mt-3 justify-content-around w-50'>
                             <div className='iconContainer logo1'>
                                 <i class="fa-brands fa-google"></i>

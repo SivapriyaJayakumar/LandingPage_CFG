@@ -1,26 +1,27 @@
 import React from 'react';
+import './IG.css';
 import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
   {
-    src: './assets/caratlane.png',
+    src: './assets/c1.jpeg',
     altText: 'Slide 1',
   },
   {
-    src: './assets/bridgestone.png',
+    src: './assets/c2.jpeg',
     altText: 'Slide 2',
   },
   {
-    src: './assets/boss.png',
+    src: './assets/c3.jpeg',
     altText: 'Slide 3',  
   },
   {
-    src: './assets/boss.png',
-    altText: 'Slide 3',  
+    src: './assets/c4.jpeg',
+    altText: 'Slide 4',  
   },
   {
-    src: './assets/boss.png',
-    altText: 'Slide 3',  
+    src: './assets/c6.jpeg',
+    altText: 'Slide 5', 
   }
 ];
 

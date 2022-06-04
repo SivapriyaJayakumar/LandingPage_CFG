@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody,CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Card, CardBody } from 'reactstrap';
 import './Sponsors.css';
 const Sponsors = (props) => {
   return (
@@ -11,7 +11,7 @@ const Sponsors = (props) => {
        
         <CardBody className='cardbody-sponsors'>
           
-          <img className='sp-logo' src='./assets/boss.png'/>
+          <img className='sp-logo' alt="sponsors" src='./assets/boss.png'/>
           
         </CardBody>
     </Card>
@@ -19,7 +19,7 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo' src='./assets/bridgestone.png'/>
+         <img className='sp-logo'  alt="sponsors" src='./assets/bridgestone.png'/>
          
        </CardBody>
      </Card>
@@ -27,7 +27,7 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo' src='./assets/buyingshow.png'/>
+         <img className='sp-logo' alt="sponsors" src='./assets/buyingshow.png'/>
          
        </CardBody>
      </Card>
@@ -35,7 +35,7 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo' src='./assets/caratlane.png'/>
+         <img className='sp-logo' alt="sponsors" src='./assets/caratlane.png'/>
          
        </CardBody>
      </Card>
@@ -43,7 +43,7 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo' src='./assets/cisco.png'/>
+         <img className='sp-logo' alt="sponsors" src='./assets/cisco.png'/>
          
        </CardBody>
      </Card>
@@ -51,7 +51,7 @@ const Sponsors = (props) => {
        
        <CardBody className='cardbody-sponsors'>
          
-         <img className='sp-logo' src='./assets/forest.png'/>
+         <img className='sp-logo'  alt="sponsors" src='./assets/forest.png'/>
          
        </CardBody>
      </Card>

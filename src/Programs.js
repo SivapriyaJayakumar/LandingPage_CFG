@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Card, CardText, CardBody } from 'reactstrap';
 
 const Programs = (props) => {
   return (
@@ -9,22 +8,18 @@ const Programs = (props) => {
     <div className='programs'>
     
     <Card className='card'>
-       
         <CardBody className='cardbody1'>
-          
-          <CardText className='cardtext'>BUDDHISM TO AMBEDKARISM</CardText>
-          
+          <CardText className='cardtext'> STUDENT WELFARE SCHEME</CardText>
         </CardBody>
       </Card>
       <Card className='card'>
-        
         <CardBody className='cardbody2'>
-            <CardText className='cardtext'>BUDDHISM TO AMBEDKARISM</CardText>
+            <CardText className='cardtext'>FELLOW MENTORSHIP PROGRAM</CardText>
         </CardBody>
       </Card>
       <Card className='card'>
       <CardBody className='cardbody3'>
-        <CardText className='cardtext'>BUDDHISM TO AMBEDKARISM</CardText>
+        <CardText className='cardtext'>KNOWLEDGE AND AWARENESS SESSIONS</CardText>
     </CardBody>
       </Card>
     </div>

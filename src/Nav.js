@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink , Button, Modal,ModalBody,ModalTitle,ModalFooter,ModalHeader} from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink , Button, Modal,ModalBody,ModalHeader} from 'reactstrap';
 function NavBar(props){
     
     const [isOpen, setIsOpen] = React.useState(false);
@@ -20,7 +20,7 @@ function NavBar(props){
     return(
         <>
         <Navbar className="nbar" expand="md">
-            <NavbarBrand href="/" ><img className="logonav"src='./assets/anubhutilogo.jpg'/></NavbarBrand>
+            <NavbarBrand href="/" ><img className="logonav"src='./assets/anubhutilogo.jpg' alt="A N U B H U T I "/></NavbarBrand>
             <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ms-auto" navbar>
