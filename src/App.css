@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 .banner{
   position:relative;
   width:100%;
-  height:30vh;
+  height:40vh;
   max-height: 800px;
-  background: black;
+  background: #c8d8e4  ;
 }
 .cname{
   font-size: 32px;
   display: flex;
-  color:white;
+  color:black;
   font-weight: bolder;
   padding-top: 30px;
   justify-content: center;
 }
 .caption{ 
   text-align: center;
-  color: white;
+  color: black;
   margin-bottom: 40px;
 }
 .donate{
@@ -30,6 +31,8 @@
   min-height: 40px;
   margin:10px 30px;
   border-radius:0 !important;
+  border:2px solid #2b6777 !important;
+  color:black !important;
 }
 .prgwrap{
   max-width:90vw;
@@ -44,17 +47,26 @@
 .prghead{
 margin:30px;
 text-align:center;
+color:black;
 }
 .card{
-
-  background-color:#fef3c7 !important;
   color:black !important;
   max-width: 400px;
   min-height: 200px;
   margin:20px;
 }
-.cardbody{
+.cardbody1{
   background-image: url('./images/cb.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardbody2{
+  background-image: url('./images/cardbg2_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardbody3{
+  background-image: url('./images/cardbg3_1.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -65,9 +77,7 @@ text-align:center;
   margin:20% auto;
   color:black;
 }
-.logo_font{
-  font-family: 'Pangolin', cursive;
-}
+
 @media only screen and (max-width: 600px) {
   .cname{
     padding-top: 20px;
@@ -84,4 +94,27 @@ text-align:center;
   .banner{
     height: 20vh;
   }
+}
+
+.logonav{
+  min-width: 170px;
+  max-height: 80px;
+}
+.nlink{
+  margin-right:30px;
+  font-size: 22px;
+  color:white !important;
+}
+.nlinkbtn{
+  margin-right:30px;
+  font-size: 22px;
+  background-color:white !important;
+  border-radius: 0 !important;
+  color:black !important;
+  padding: 8px 22px !important;
+}
+.nbar{
+  background-color:#2b6777
+  !important;
+
 }

@@ -5,8 +5,26 @@
     height: 70px;
 }
 
-.icon{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+.iconContainer {
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.iconContainer:hover {
+    transform: scale(1.3);
+}
+
+.logo1:hover {
+    color: crimson;
+}
+
+.logo2:hover {
+    color: #4267B2;
+}
+
+.logo3:hover {
+    color: #00acee;
+}
+.footer{
+    background-color: #f2f2f2;
 }

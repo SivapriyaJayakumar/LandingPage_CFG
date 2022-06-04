@@ -10,7 +10,7 @@ const Programs = (props) => {
     
     <Card className='card'>
        
-        <CardBody className='cardbody'>
+        <CardBody className='cardbody1'>
           
           <CardText className='cardtext'>BUDDHISM TO AMBEDKARISM</CardText>
           
@@ -18,12 +18,12 @@ const Programs = (props) => {
       </Card>
       <Card className='card'>
         
-        <CardBody className='cardbody'>
+        <CardBody className='cardbody2'>
             <CardText className='cardtext'>BUDDHISM TO AMBEDKARISM</CardText>
         </CardBody>
       </Card>
       <Card className='card'>
-      <CardBody className='cardbody'>
+      <CardBody className='cardbody3'>
         <CardText className='cardtext'>BUDDHISM TO AMBEDKARISM</CardText>
     </CardBody>
       </Card>
