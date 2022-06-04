@@ -6,6 +6,8 @@ import {Button} from 'reactstrap';
 import Programs from './Programs';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink , Modal,ModalBody,ModalTitle,ModalFooter,ModalHeader} from 'reactstrap';
 import Sponsors from './Sponsors'
+import MyGallery from './imageCarousel';
+import IG from './ImageGallery';
 function App() {
   const [isOpen, setIsOpen] = React.useState(false);
     
@@ -51,6 +53,9 @@ function App() {
     </Modal>
     <Programs/>
     <Sponsors/>
+    <div className='gallery'>
+      <IG/>
+    </div>
     <Footer/>
   </div>
   );

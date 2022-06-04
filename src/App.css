@@ -118,3 +118,11 @@ color:black;
   !important;
 
 }
+.gallery{
+  max-width:90vw;
+  margin:30px auto;
+}
+.carousel-item{
+  min-height: 200px;
+  max-height: 300px;
+}
